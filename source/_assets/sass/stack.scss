@@ -1,0 +1,34 @@
+.stack {
+  margin: 20px auto;
+  width: 400px;
+  padding: 0;
+  position: relative;
+  max-width: 100%;
+}
+
+.stack img {
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  outline: 1px solid transparent;
+}
+
+.stack img:last-child {
+  position: relative;
+}
+
+/* Individual effects */
+
+/* Simple Spread */
+.stack-spread.active img:nth-child(3) {
+  -webkit-transform: translate(-15px,15px);
+  transform: translate(-15px,15px);
+}
+
+.stack-spread.active img:first-child {
+  -webkit-transform: translate(15px,-15px);
+  transform: translate(15px,-15px);
+}
