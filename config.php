@@ -4,7 +4,7 @@ return [
     'baseUrl' => '',
     'production' => false,
     'siteName' => 'Spendology Docs',
-    'siteHeading' => 'Your journey starts here',
+    'siteHeading' => 'Service integration made easy',
     'siteDescription' => '',
 
     // Algolia DocSearch credentials

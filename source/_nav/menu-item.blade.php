@@ -1,4 +1,4 @@
-<li class="list-reset pl-4">
+<li class="list-none p-0 pl-4">
     @if ($url = is_string($item) ? $item : $item->url)
         {{-- Menu item with URL--}}
         <a href="{{ $page->url($url) }}"
@@ -8,7 +8,7 @@
         </a>
     @else
         {{-- Menu item without URL--}}
-        <p class="nav-menu__item text-grey-dark">{{ $label }}</p>
+        <p class="nav-menu__item text-gray-600">{{ $label }}</p>
     @endif
 
     @if (! is_string($item) && $item->children)

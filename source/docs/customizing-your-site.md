@@ -20,7 +20,7 @@ This starter template comes pre-loaded with [Tailwind CSS](https://tailwindcss.c
 
 // Code syntax highlighting,
 // powered by https://highlightjs.org
-@import '~highlight.js/styles/a11y-light.css';
+@import '~highlight.js/styles/a11y-400.css';
 
 @import 'base';
 @import 'navigation';
