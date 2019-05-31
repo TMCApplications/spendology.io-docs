@@ -11,7 +11,7 @@ This is a starter template for creating a beautiful, customizable documentation 
 
 ## Configuration {#getting-started-configuration}
 
-As with all Jigsaw sites, configuration settings can be found in `config.php`; you can update the variables in that file with settings specific to your project. You can also add new configuration variables there to use across your site; take a look at the [Jigsaw documentation](http://jigsaw.tighten.co/docs/site-variables/) to learn more.
+As with all Jigsaw sites, configuration settings can be found in `config.php`; you can update the variables in that file with settings specific to your project. You can also add new configuration variables there to use across your site; take a look at the [Jigsaw documentation](https://jigsaw.tighten.co/docs/site-variables/) to learn more.
 
 ```php
 // config.php
@@ -32,7 +32,7 @@ return [
 
 ### Adding Content {#getting-started-adding-content}
 
-You can write your content using a [variety of file types](http://jigsaw.tighten.co/docs/content-other-file-types/). By default, this starter template expects your content to be located in the `source/docs` folder. If you change this, be sure to update the URL references in [navigation.php](/docs/navigation.php).
+You can write your content using a [variety of file types](https://jigsaw.tighten.co/docs/content-other-file-types/). By default, this starter template expects your content to be located in the `source/docs` folder. If you change this, be sure to update the URL references in [navigation.php](/docs/navigation.php).
 
 [Read more about navigation.](/docs/navigation)
 

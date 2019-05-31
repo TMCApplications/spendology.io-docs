@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a553f214-2365-4216-8d3b-75e700d8a7af/deploy-status)](https://app.netlify.com/sites/staging-spendology-io-docs/deploys)
+
 # Jigsaw Docs Starter Template
 
 This is a starter template for creating a beautiful, customizable documentation site for your project with minimal effort. You’ll only have to change a few settings and you’re ready to go.
