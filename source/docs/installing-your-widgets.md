@@ -1,0 +1,56 @@
+---
+title: Widgets Installation Guide
+description: Adding our widgets to your website is easy peasy.
+extends: _layouts.documentation
+section: content
+---
+
+# Getting Started {#getting-started}
+
+There are four key steps to adding our widgets to your site.
+
+### Step 1 - Add our javascript to your site.
+Highlight and copy all of the content in the block below. After you have successfully done this paste it into the `<head>` tag of your website.
+```html
+<script>
+!function(){var e=document.createElement("script");document.getElementsByTagName("body")[0].appendChild(e),e.setAttribute("src","https://widget.spendology.io/v3/loader.min.js?"+(new Date).getTime())}();
+</script>
+```
+
+<small>If you are interested in what this code does please [click here](/docs/understand-the-snippet) to find out.</small>
+
+### Step 2 - Configuring your widgets
+
+We allow our widgets to be configured to just how you want them. 
+
+<a href="/examples/spendology-widget-config.js" target="_blank" download>Click to download an example configuration file</a>
+
+Once you have changed the configuration to meet your requirements you should also add this into the `<head>` tag of your website.
+
+```html
+<script src="//yourwebsite.com/js/spendology-widget-config.js" />
+```
+
+For more information on how to configure the available widgets please see the below guides:
+<ul class="list-disc ml-10">
+    <li><a href="/docs/widget-configuration">Structure</a></li>
+    <li><a href="/docs/instant-quote-configuration">Instant Quote</a></li> 
+    <li><a href="/docs/rates-comparison-configuration">Rate Comparison</a></li> 
+    <li><a href="/docs/live-rate-board-configuration">Live Rate Board</a></li> 
+</ul> 
+
+### Step 3 - Styling your widgets
+Someone from your company should be assigned this step who has some knowledge of website design as this step will dive into the world of stlying through a programming language called `CSS`.
+
+<a href="/examples/spendology-widgets.css" target="_blank" download>Click to download an example CSS stylesheet file</a>
+
+For more information on how to style the available widgets please see the below guides:
+<ul class="list-disc ml-10">
+    <li><a href="/docs/widget-styling">Before you start</a></li>
+    <li><a href="/docs/styling-components">Components</a></li> 
+    <li><a href="/docs/styling-typography">Typography</a></li> 
+</ul> 
+
+### Step 4 - Adding the widgets to your website
+
+TBD

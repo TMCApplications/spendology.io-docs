@@ -21,7 +21,7 @@ return [
 
 Once the `docsearchApiKey` and `docsearchIndexName` values are set in `config.php`, the search field at the top of the page is ready to use.
 
-<img class="block m-auto" src="/assets/img/docsearch.png" alt="Screenshot of search results" />
+<img class="block m-auto" src="/img/docsearch.png" alt="Screenshot of search results" />
 
 To help Algolia index your pages correctly, it's good practice to add a unique `id` or `name` attribute to each heading tag (`<h1>`, `<h2>`, etc.). By doing so, a user will be taken directly to the appropriate section of the page when they click a search result.
 

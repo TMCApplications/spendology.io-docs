@@ -10,7 +10,7 @@
         <meta property="og:title" content="{{ $page->title ?  $page->title . ' | ' : '' }}{{ $page->siteName }}"/>
         <meta property="og:description" content="{{ $page->description ?? $page->siteDescription }}"/>
         <meta property="og:url" content="{{ $page->getUrl() }}"/>
-        <meta property="og:image" content="/assets/img/logo.png"/>
+        <meta property="og:image" content="/img/logo.png"/>
         <meta property="og:type" content="website"/>
 
         <meta name="twitter:image:alt" content="{{ $page->siteName }}">
@@ -44,7 +44,7 @@
             <div class="container flex items-center max-w-8xl mx-auto px-4 lg:px-8">
                 <div class="flex items-center">
                     <a href="/" title="{{ $page->siteName }} home" class="inline-flex items-center">
-                        <img class="h-8 md:h-10 mr-3" src="/assets/img/logo.png" alt="{{ $page->siteName }} logo" />
+                        <img class="h-8 md:h-10 mr-3" src="/img/logo.png" alt="{{ $page->siteName }} logo" />
 
                         <h1 class="text-lg md:text-2xl text-blue-900 font-semibold hover:text-blue-600 my-0 pr-4">{{ $page->siteName }}</h1>
                     </a>
@@ -68,17 +68,22 @@
 
         @stack('scripts')
 
-        <footer class="bg-white text-center text-sm mt-12 py-4 px-6" role="contentinfo">
-            <ul class="flex flex-col md:flex-row justify-center list-none p-0">
-                <li class="md:mr-2">
-                    &copy; <a href="https://www.spendology.com" title="Spendology Website">Spendology</a> {{ date('Y') }}.
-                </li>
-            </ul>
-            <ul class="flex flex-col md:flex-row justify-center list-none p-0">
-                <li>
-                    Spendology is a trading style of Spendology Limited, registered in England with company no 10059951 at 22 Great James Street, London WC1N 3ES.
-                </li>
-            </ul>
+        <footer class="bg-white text-center text-sm mt-12" role="contentinfo">
+            <div class="bg-center bg-repeat-x -mb-8 hidden md:block">
+                <img src="/img/wave.svg" alt="Cosmetic wave">
+            </div>
+            <div class="py-6 px-6">
+                <ul class="flex flex-col md:flex-row justify-center list-none p-0">
+                    <li class="md:mr-2">
+                        &copy; <a href="https://www.spendology.com" title="Spendology Website">Spendology</a> {{ date('Y') }}.
+                    </li>
+                </ul>
+                <ul class="flex flex-col md:flex-row justify-center list-none p-0">
+                    <li>
+                        Spendology is a trading style of Spendology Limited, registered in England with company no 10059951 at 22 Great James Street, London WC1N 3ES.
+                    </li>
+                </ul>
+            </div>
         </footer>
     </body>
 </html>

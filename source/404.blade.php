@@ -1,6 +1,9 @@
-@extends('_layouts.master')
+---
+extends: _layouts.master
+section: body
+permalink: 404.html
+---
 
-@section('body')
 <div class="flex flex-col items-center mt-32 text-gray-700">
     <h1 class="text-6xl font-normal leading-none mb-2">404</h1>
 
@@ -12,4 +15,3 @@
         Need help? Please <a title="404 Page Documentation" href="https://www.spendology.com/contact-us/">Contact us</a>.
     </p>
 </div>
-@endsection

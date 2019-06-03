@@ -13,7 +13,7 @@ This starter template comes pre-loaded with [Tailwind CSS](https://tailwindcss.c
 > You can re-work the architecture of the Sass includes any way you’d like; just make sure to keep the `@tailwind` references in your final files.
 
 ```scss
-// source/_assets/sass/main.scss
+// source/_assets/sass/main.scss 
 
 @tailwind preflight;
 @tailwind components;

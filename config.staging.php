@@ -5,6 +5,6 @@ return [
     'production' => false,
 
     // DocSearch credentials
-    'docsearchApiKey' => 'TBD',
-    'docsearchIndexName' => 'TBD',
+    'docsearchApiKey' => '',
+    'docsearchIndexName' => '',
 ];
