@@ -5,9 +5,9 @@ extends: _layouts.documentation
 section: content
 ---
 
-# Installating our widgets {#installing-our-widgets}
+# Installing our widgets {#installing-our-widgets}
 
-There are four key steps to adding our widgets to your site. 
+There are four easy steps to adding our widgets to your site. 
 All of these steps must be completed in order for a successful installation.
 
 <ul class="list-decimal ml-10">
