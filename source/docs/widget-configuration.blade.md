@@ -66,17 +66,26 @@ if (document.getElementById(liveRateBoardId)) {
 }
 ```
 
-All three widgets require a `selector` and `api_url` please see the below guides with the full list of configuration 
-options for each widget.
+All three widgets require a `selector` and `api_url`. The majority of configuration options are passed to the `new` 
+method. The actuall render calls all follow this pattern:
+ 
+```js
+SPENDOLOGY.WidgetName
+    .new({ /** widget config here */})
+    .render({ /** possible render config here */});
 
+// Spendology.InstantQuote...
+// Spendology.RateComparison...
+// Spendology.LiveRateBoard...
+```
+
+Please see the below guides with the full list of configuration options for each widget.
 <ul class="list-disc ml-10">
-    <li><a href="/docs/instant-quote-configuration">Instant Quote</a></li> 
-    <li><a href="/docs/rates-comparison-configuration">Rate Comparison</a></li> 
-    <li><a href="/docs/live-rate-board-configuration">Live Rate Board</a></li> 
+    <li><a href="/docs/instant-quote-configuration">Instant quote</a></li> 
+    <li><a href="/docs/rates-comparison-configuration">Rate comparison</a></li> 
+    <li><a href="/docs/live-rate-board-configuration">Live rate board</a></li> 
 </ul> 
 
 > The `render` function is what actually injects the widget into the 
 [placeholders](/docs/installing-our-widgets#widgets-step-1). If needed you can call the render method separate from the 
 configuration if you need your site to complete a task before rendering:
-
-<p class="text-right"><a href="#installing-our-widgets">Back to top</a></p>

@@ -28,4 +28,9 @@ return [
     'url' => function ($page, $path) {
         return starts_with($path, 'http') ? $path : '/' . trimPath($path);
     },
+
+    // widgets
+    'widgets' => [
+        'configs' => require_once('widgets/configs.php'),
+    ],
 ];

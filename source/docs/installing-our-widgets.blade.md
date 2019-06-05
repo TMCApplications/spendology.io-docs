@@ -60,10 +60,10 @@ Once you have changed the configuration to meet your requirements you should als
 
 For more information on how to configure the available widgets please see the below guides:
 <ul class="list-disc ml-10">
-    <li><a href="/docs/widget-configuration">Structure</a></li>
-    <li><a href="/docs/instant-quote-configuration">Instant Quote</a></li> 
-    <li><a href="/docs/rates-comparison-configuration">Rate Comparison</a></li> 
-    <li><a href="/docs/live-rate-board-configuration">Live Rate Board</a></li> 
+    <li><a href="/docs/widget-configuration">Understanding the structure</a></li>
+    <li><a href="/docs/instant-quote-configuration">Instant quote</a></li> 
+    <li><a href="/docs/rates-comparison-configuration">Rate comparison</a></li> 
+    <li><a href="/docs/live-rate-board-configuration">Live rate board</a></li> 
 </ul> 
 
 ### Step 4 - Styling your widgets # {#widgets-step-4}
@@ -83,5 +83,3 @@ For more information on how to style the available widgets please see the below 
     <li><a href="/docs/styling-components">Components</a></li> 
     <li><a href="/docs/styling-typography">Typography</a></li> 
 </ul> 
-
-<p class="text-right"><a href="#installing-our-widgets">Back to top</a></p>

@@ -13,6 +13,7 @@
 
         <div class="w-full lg:w-3/5 break-words pb-16 lg:pl-4" v-pre>
             @yield('content')
+            <p class="text-right"><a href="#top-of-the-page">Back to the top</a></p>
         </div>
     </div>
 </section>
