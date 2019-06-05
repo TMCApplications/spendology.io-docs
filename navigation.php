@@ -3,23 +3,29 @@
 return [
     'Getting Started' => 'docs/innovation-forever',
     'Widgets' => [
-        'url' => 'docs/installing-our-widgets',
         'children' => [
+            'Installation' => 'docs/installing-our-widgets',
             'Configuration' => [
-                'url' => 'docs/widget-onfiguration',
                 'children' => [
-                    'Instant Quote' => 'docs/instant-quote-configuration',
-                    'Rate Comparison' => 'docs/rate-comparison-configuration',
-                    'Live Rate Board' => 'docs/live-rate-board-configuration',
+                    'Understanding the structure' => 'docs/widget-configuration',
+                    'Instant quote' => 'docs/instant-quote-configuration',
+                    'Rate comparison' => 'docs/rate-comparison-configuration',
+                    'Live rate board' => 'docs/live-rate-board-configuration',
                 ]
             ],
             'Styling' => [
-                'url' => 'docs/widget-styling',
                 'children' => [
+                    'Before you start' => 'docs/widget-styling',
                     'Components' => 'docs/styling-components',
                     'Typography' => 'docs/styling-typography',
                 ]
             ],
+            'Frequently asked questions' => [
+                'children' => [
+                    'How do I get the external urls?' => 'docs/external-urls',
+                    'How are the widgets loaded?' => 'docs/how-are-widgets-loaded',
+                ]
+            ]
         ],
     ],
 ];

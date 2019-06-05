@@ -17,7 +17,7 @@ All of these steps must be completed in order for a successful installation.
     <li><a href="#widgets-step-4">Step 4 - Styling your widgets</a></li>
 </ul> 
 
-### Step 1 - Adding the widget placholders to your website # {#widgets-step-1}
+### Step 1 - Adding the widget placeholders to your website # {#widgets-step-1}
 On your website where you want the widgets to display add the below html snippets.
 
 > The element identifiers (id) can be customised in the configuration file described in [Step 3](#widgets-step-3).
@@ -44,13 +44,13 @@ Highlight and copy all of the content in the block below. After you have success
 !function(){var e=document.createElement("script");document.getElementsByTagName("body")[0].appendChild(e),e.setAttribute("src","https://widget.spendology.io/v3/loader.min.js?"+(new Date).getTime())}();
 </script>
 ```
-<small>If you are interested in what this code does please [click here](/docs/understand-the-snippet) to find out.</small>
+> If you are interested in what this code does please [click here](/docs/how-are-widgets-loaded) to find out.
 
 ### Step 3 - Configuring your widgets # {#widgets-step-3}
 
 We allow our widgets to be configured to just how you want them. 
 
-<a href="/examples/spendology-widget-config.js" target="_blank" download>Click to download an example configuration file</a>
+@include('_partials.widget_config_example_link')
 
 Once you have changed the configuration to meet your requirements you should also add this into the `<head>` tag of your website.
 
@@ -67,11 +67,11 @@ For more information on how to configure the available widgets please see the be
 </ul> 
 
 ### Step 4 - Styling your widgets # {#widgets-step-4}
-Someone from your company should be assigned this step who has some knowledge of website design as this step will dive into the world of stlying through a programming language called `CSS`.
+Someone from your company should be assigned this step who has some knowledge of website design as this step will dive into the world of styling through a programming language called `CSS`.
 
 <a href="/examples/spendology-widgets.css" target="_blank" download>Click to download an example CSS stylesheet file</a>
 
-Once you have changed the stylsheet to meet your requirements you should also add this into the `<head>` tag of your website.
+Once you have changed the styelsheet to meet your requirements you should also add this into the `<head>` tag of your website.
 
 ```html
 <link rel="stylesheet" href="//yourwebsite.com/css/spendology-widgets.css" />

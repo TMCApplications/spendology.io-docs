@@ -5,19 +5,20 @@ window.addEventListener('SPENDOLOGY_WIDGETS_LOADED', function () {
     /*************************************************
      * Instant Quote
      **************************************************/
-    if (document.getElementById('InstantQuote')) {
+    var instantQuoteId = 'InstantQuote';
+    if (document.getElementById(instantQuoteId)) {
         var instantQuoteOptions = {
-            selector: "#InstantQuote",
+            selector: "#" + instantQuoteId,
             api_url: apiUrl,
             button_url: appSignUpUrl,
             button_text: 'Buy now',
             delivery_text: "* We charge £4.95 for delivery. ",
-            footer_text: "We take your privacy very seriously and promise never to share this data with third " +
-                "parties without your consent. Take a look at our " +
-                "<a href=\"http://www.yourwebsite.com\">privacy policy</a> for more information." +
-                "<br /><br />" +
+            footer_text: "This will appear underneath the widget. You can put <b>html code</b> in here." +
+                " Usually this text has a link to your <a href\"#privacy_policy\">privacy policy</a> and other " +
+                "disclaimers. For example:<br /><br />" +
                 "Please note that we always round the foreign currency to the lowest available denomination. The " +
-                "exchange rate shown is constantly updated with the latest market data so costs may go up and down.",
+                "exchange rate shown is constantly updated with the latest market data so costs may go up and down."
+            ,
         };
 
         SPENDOLOGY.InstantQuote.new(instantQuoteOptions).render({
@@ -29,9 +30,10 @@ window.addEventListener('SPENDOLOGY_WIDGETS_LOADED', function () {
     /*************************************************
      * Rate Comparison
      **************************************************/
-    if ( document.getElementById('RateComparison')) {
+    var rateComparisonId = 'RateComparison';
+    if ( document.getElementById(rateComparisonId)) {
         var rateComparisonOptions = {
-            selector: "#RateComparison",
+            selector: "#" + rateComparisonId,
             api_url: apiUrl,
             button_url: appSignUpUrl,
             button_text: 'Buy now',
@@ -47,9 +49,10 @@ window.addEventListener('SPENDOLOGY_WIDGETS_LOADED', function () {
     /*************************************************
      * Live Rates Board
      **************************************************/
-    if (document.getElementById( 'LiveRateBoard')) {
+    var liveRateBoardId = 'LiveRateBoard';
+    if (document.getElementById(liveRateBoardId)) {
         var liveRateBoardOptions = {
-            selector: "#LiveRateBoard",
+            selector: "#" + liveRateBoardId,
             api_url: apiUrl,
             button_url: appSignUpUrl,
             button_text: 'Buy now',

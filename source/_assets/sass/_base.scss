@@ -5,22 +5,22 @@ body {
 a {
     @apply .font-semibold;
     @apply .no-underline;
-    @apply .text-blue-600;
+    @apply .text-sea-green-500;
 
     &:hover {
-        @apply .text-blue-800;
+        @apply .text-violet-400;
     }
 }
 
 blockquote {
-    @apply .border-blue-400;
+    @apply .border-violet-500;
     @apply .border-l-4;
     @apply .font-normal;
     @apply .italic;
     @apply .my-8;
     @apply .pl-6;
     @apply .text-gray-700;
-    @apply .text-lg;
+    @apply .text-sm;
 }
 
 code {
