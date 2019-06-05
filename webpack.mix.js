@@ -31,7 +31,8 @@ mix.js('source/_assets/js/main.js', 'js')
     .purgeCss({
         enabled: ['production', 'staging'].indexOf(env) !== -1,
         extensions: ['html', 'md', 'js', 'php', 'vue'],
-        folders: ['source', `build_${env}`],
+        folders: ['source'],
+        whitelist: ['blockquote'],
         whitelistPatterns: [/language/, /hljs/, /algolia/],
     })
     .version();
