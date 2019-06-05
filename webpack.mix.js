@@ -32,6 +32,7 @@ mix.js('source/_assets/js/main.js', 'js')
         enabled: ['production', 'staging'].indexOf(env) !== -1,
         extensions: ['html', 'md', 'js', 'php', 'vue'],
         folders: ['source'],
-        whitelistPatterns: [/language/, /hljs/, /algolia/, /blockquote/],
+        whitelist: ['blockquote'],
+        whitelistPatterns: [/language/, /hljs/, /algolia/],
     })
     .version();
