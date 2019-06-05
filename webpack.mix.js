@@ -2,6 +2,7 @@ let mix = require('laravel-mix');
 let build = require('./tasks/build.js');
 let tailwindcss = require('tailwindcss');
 let argv = require('yargs').argv;
+let env = argv.env || 'unknown';
 
 require('laravel-mix-purgecss');
 
@@ -28,9 +29,9 @@ mix.js('source/_assets/js/main.js', 'js')
         postCss: [tailwindcss('./tailwind.config.js')],
     })
     .purgeCss({
-        enabled: ['production', 'staging'].indexOf(argv.env || 'unknown') !== -1,
+        enabled: ['production', 'staging'].indexOf(env) !== -1,
         extensions: ['html', 'md', 'js', 'php', 'vue'],
-        folders: ['source'],
+        folders: ['source', `build_${env}`],
         whitelistPatterns: [/language/, /hljs/, /algolia/],
     })
     .version();
