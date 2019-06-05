@@ -13,7 +13,7 @@ At Spendology, we’re continually inventing and innovating. We always have an e
 
 Integrate our clever widgets into your website and online marketing and give your customers access to live rate boards, instant quotes and competitor comparison widgets.
 
-[Start adding our widgets to your site here](/docs/installing-your-widgets)
+[Start adding our widgets to your site here](/docs/installing-our-widgets)
 
 ## The voice of Alexa
 

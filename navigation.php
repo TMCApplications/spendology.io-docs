@@ -3,7 +3,7 @@
 return [
     'Getting Started' => 'docs/innovation-forever',
     'Widgets' => [
-        'url' => 'docs/installing-your-widgets',
+        'url' => 'docs/installing-our-widgets',
         'children' => [
             'Configuration' => [
                 'url' => 'docs/widget-onfiguration',
