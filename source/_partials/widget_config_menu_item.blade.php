@@ -3,7 +3,7 @@
         <a href="#{{$group}}-type-{{$type}}">{{ucfirst($type)}}</a>
         <ul class="list-disc ml-10">
             @foreach($properties as $propertyName => $property)
-                <li><a href="#{{$group}}_{{$type}}_{{$propertyName}}">{{$property->displayName}}</a></li>
+                <li><a href="#{{$group}}_{{$type}}_{{$propertyName}}"><span class="{{$property->recommended ? 'recommended' : ''}}">{{$property->displayName}}</span></a></li>
             @endforeach
         </ul>
     </li>

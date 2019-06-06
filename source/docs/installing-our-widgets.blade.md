@@ -71,7 +71,7 @@ Someone from your company should be assigned this step who has some knowledge of
 
 <a href="/examples/spendology-widgets.css" target="_blank" download>Click to download an example CSS stylesheet file</a>
 
-Once you have changed the styelsheet to meet your requirements you should also add this into the `<head>` tag of your website.
+Once you have changed the stylesheet to meet your requirements you should also add this into the `<head>` tag of your website.
 
 ```html
 <link rel="stylesheet" href="//yourwebsite.com/css/spendology-widgets.css" />

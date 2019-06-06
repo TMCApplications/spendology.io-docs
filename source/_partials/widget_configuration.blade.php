@@ -7,6 +7,12 @@ $hasRender = $render && count($render);
 
 <h3 id="basic">Configuration API</h3>
 <p class="mb-0">Please find the full configuration list for the {{$widget}} widget.</p>
+<p class="mb-0">
+    We recommend that you include
+    <strong>
+        <span class="recommended">Highlighted</span>
+    </strong> optional properties in your configuration file.
+</p>
 
 <div class="md:flex">
     <div class="{{$hasRender ? 'md:w-1/2' : 'w-full'}}">

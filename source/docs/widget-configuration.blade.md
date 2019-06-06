@@ -67,7 +67,7 @@ if (document.getElementById(liveRateBoardId)) {
 ```
 
 All three widgets require a `selector` and `api_url`. The majority of configuration options are passed to the `new` 
-method. The actuall render calls all follow this pattern:
+method. All widget render calls follow this pattern:
  
 ```js
 SPENDOLOGY.WidgetName
