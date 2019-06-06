@@ -1,13 +1,13 @@
 If you want to display a savings comparison with the high street on this widget then you will need to put a message as
 the value of this configuration setting. See example message below:
 
-<pre><code class="language-none wrap">{{
+<pre><code class="language-none language-wrap">{{
     "Spending £{cost} at {target_currency_symbol}{rate} you will save £{saving_amount}. If you bought the same amount of {target_currency_code} from {competitor_name} it would cost you £{competitor_cost} at their  rate of {target_currency_symbol}{competitor_rate}."
 }}</code></pre>
 
 Which after all the place holders are replaced this message would say something like:
 
-<pre><code class="language-none wrap">{{
+<pre><code class="language-none language-wrap">{{
     "Spending £100 at $1.3000 you will save £15. If you bought the same amount of USD from the Post Office it would cost you £115 at their  rate of $1.2500."
 }}</code></pre>
 

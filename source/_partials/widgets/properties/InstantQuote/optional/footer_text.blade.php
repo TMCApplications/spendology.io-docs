@@ -2,7 +2,7 @@ Displays underneath the instant quote below the
 <a href="#{{$group}}_{{$type}}_delivery_text">"Delivery text"</a> content. If you do not define this message or leave it
 empty then it will not display anything. Please find an example message below:
 
-<pre><code class="language-none wrap">{{
+<pre><code class="language-none language-wrap">{{
     "We take your privacy very seriously and promise never to share data without your consent. Take a look at our"
     . "\n<a href=\"#privacy_policy\">privacy policy</a> for more information"
 }}</code></pre>
