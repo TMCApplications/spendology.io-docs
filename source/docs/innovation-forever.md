@@ -1,6 +1,8 @@
 ---
 title: Getting Started
 description: Getting integrated with Spendology is as easy as 1, 2, 3.
+hidePageMenu: true
+hideBackToTop: true
 extends: _layouts.documentation
 section: content
 ---

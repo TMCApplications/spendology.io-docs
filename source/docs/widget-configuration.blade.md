@@ -1,6 +1,10 @@
 ---
 title: Widgets | Understanding the structure
 description: Learn how to construct your widget configuration file
+pageItems:
+    widgets-loaded-event-listener: Waiting for the widgets to be downloaded
+    widgets-placeholder-check: Check if the expected widget placeholder exists
+    widgets-add-config: Configuring your widgets
 extends: _layouts.documentation
 section: content
 ---
@@ -8,15 +12,11 @@ section: content
 # Understanding the structure # {#widget-configuration}
 If you haven't already you should download the example config on the link below.
 
-@include('_partials.widget_config_example_link')
+@include('_partials.widgets.config_example_link')
 
 Once you have downloaded the above file open it and use this guide as a breakdown of each part of the config.
 
-<ul class="list-decimal ml-10">
-    <li><a href="#widgets-loaded-event-listener">Waiting for the widgets to be downloaded</a></li>
-    <li><a href="#widgets-placeholder-check">Check if the expected widget placeholder exists</a></li>
-    <li><a href="#widgets-add-config">Configuring your widgets</a></li>
-</ul>
+@include('_partials.page_menu_medium')
 
 ### Waiting for the widgets to be downloaded # {#widgets-loaded-event-listener}
 The whole config is wrapped in an event listener listening for the `SPENDOLOGY_WIDGETS_LOADED` event. 
