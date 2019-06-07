@@ -47,7 +47,7 @@ This ensures that the widget configuration and render code is only run if you ha
 current page.
 
 > If you have entered a custom id for your widget placeholders instead of the defaults in the 
-[installation guide](/docs/installing-our-widgets#widgets-step-1), enter those identifiers in at this section for each 
+[installation guide](/docs/installing-our-widgets#widgets-step-1), enter those identifiers in this section for each 
 of the widgets in the config.
 
 ---
