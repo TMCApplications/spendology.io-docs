@@ -10,7 +10,7 @@ this message or leave it empty then it will not display anything. Please find an
 Commonly this is used to display a link to your privacy policy and to add other disclaimers about the "Instant Quote"
 widget.
 
-> You can put safe <code>html</code> code in the message, for example, to add links or to make parts of the
+> You can put safe `html` code in the message, for example, to add links or to make parts of the
 message bold.
 > 
 > Additionally, here are some other disclaimers we usually include in this message:

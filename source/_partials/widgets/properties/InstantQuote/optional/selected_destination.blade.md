@@ -4,7 +4,7 @@ the <a href="#{{$group}}_{{$type}}_capture_travel_information" title="Capture tr
 </a> setting to show the destination dropdown on this widget.
 
 Another possible use is if customer comes to the widget page via a url which contains a destination (e.g.
-<code>example.com/instant-quote?destination=Australia</code>). However, you would need to handle reading the destination
+`example.com/instant-quote?destination=Australia`). However, you would need to handle reading the destination
 from the url and passing it to the config.
 
 > This must be a valid country name which exists in our list of countries.

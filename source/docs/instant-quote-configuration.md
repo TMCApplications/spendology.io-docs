@@ -6,7 +6,7 @@ extends: _partials.widgets.configuration
 section: heading-content
 ---
 
-<h1 id="instant-quote-configuration-api">Instant quote</h1> 
+# Instant quote # {#instant-quote-configuration-api} 
 
 The instant quote widget allows your customer to find out how much currency they can get with your rates before they 
 register. 

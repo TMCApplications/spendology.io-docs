@@ -4,7 +4,7 @@ the <a href="#{{$group}}_{{$type}}_capture_travel_information" title="Capture tr
 </a> setting to show the departure dropdown on this widget.
 
 Another possible use is if customer comes to the widget page via a url which contains a departure (e.g.
-<code>example.com/instant-quote?departure=Aug 2019</code>). However, you would need to handle reading the departure
+`example.com/instant-quote?departure=Aug 2019`). However, you would need to handle reading the departure
 from the url and passing it to the config.
 
-> This must be a valid departure month in the format <code>MMM YYYY</code> and is one of the next 9 months.
+> This must be a valid departure month in the format `MMM YYYY` and is one of the next 9 months.

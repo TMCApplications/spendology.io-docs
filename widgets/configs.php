@@ -1,6 +1,7 @@
 <?php
 $includeRoot = '_partials.widgets.properties.';
 $instantQuoteRoot = $includeRoot . 'InstantQuote.';
+$rateComparisonRoot = $includeRoot . 'RateComparison.';
 
 $default = [
     'api_url' => [
@@ -35,6 +36,12 @@ $banner = [
     ],
 ];
 
+$errorMessage = [
+    'displayName' => 'Error message',
+    'default' => '"Whoops! Something went wrong please contact us for help or click the retry button below."',
+    'descriptionIncludePath' => $includeRoot . 'optional.error_message',
+];
+
 return [
     'InstantQuote' => [
         'standard' => [
@@ -56,11 +63,7 @@ return [
                     'descriptionIncludePath' => $instantQuoteRoot . 'optional.delivery_text',
                     'recommended' => true,
                 ],
-                'error_message' => [
-                    'displayName' => 'Error message',
-                    'default' => '"Whoops! Something went wrong please contact us for help or click the retry button below."',
-                    'descriptionIncludePath' => $includeRoot . 'optional.error_message',
-                ],
+                'error_message' => $errorMessage,
                 'footer_text' => [
                     'displayName' => 'Footer text',
                     'default' => 'null',
@@ -109,5 +112,27 @@ return [
                 ],
             ]),
         ],
-    ]
+    ],
+    'RateComparison' => [
+        'standard' => [
+            'required' => $default,
+            'optional' => array_merge($banner, [
+                'button_text' => [
+                    'displayName' => 'Button text',
+                    'default' => '"Buy now"',
+                    'descriptionIncludePath' => $includeRoot . 'optional.button_text',
+                ],
+                'error_message' => $errorMessage,
+            ]),
+        ],
+        'render' => [
+            'required' =>[
+                'currencies' => [
+                    'displayName' => 'Currencies',
+                    'default' => 'null',
+                    'descriptionIncludePath' => $rateComparisonRoot . 'currencies',
+                ],
+            ],
+        ],
+    ],
 ];

@@ -27,5 +27,5 @@ placeholders below:
     <li><code>{competitor_rate}</code>: The rate the comparison company is currently offering to its customers.</li>
 </ul>
 
-The configuration value must be a string only and not contain any <code>html</code> code.
+The configuration value must be a string only and not contain any `html` code.
 </blockquote>
