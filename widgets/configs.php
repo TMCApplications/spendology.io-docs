@@ -87,10 +87,25 @@ return [
                     'default' => '""',
                     'descriptionIncludePath' => $instantQuoteRoot . 'optional.saving_text',
                 ],
+                'onSubmit' => [
+                    'displayName' => 'Submit callback function',
+                    'default' => 'null',
+                    'descriptionIncludePath' => $instantQuoteRoot . 'optional.on_submit',
+                ],
                 'selected_currency' => [
                     'displayName' => 'Selected currency',
                     'default' => 'null',
                     'descriptionIncludePath' => $instantQuoteRoot . 'optional.selected_currency',
+                ],
+                'selected_departure' => [
+                    'displayName' => 'Selected departure',
+                    'default' => 'null',
+                    'descriptionIncludePath' => $instantQuoteRoot . 'optional.selected_departure',
+                ],
+                'selected_destination' => [
+                    'displayName' => 'Selected destination',
+                    'default' => 'null',
+                    'descriptionIncludePath' => $instantQuoteRoot . 'optional.selected_destination',
                 ],
             ]),
         ],
