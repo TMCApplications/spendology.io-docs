@@ -16,6 +16,8 @@ All of these steps must be completed in order for a successful installation.
 
 @include('_partials.page_menu_medium')
 
+<hr class="divider" />
+
 ### Step 1 - Add the widget placeholders # {#widgets-step-1}
 On your website where you want the widgets to display add the below html snippets.
 
@@ -36,6 +38,7 @@ On your website where you want the widgets to display add the below html snippet
 <div id="LiveRateBoard"></div> 
 ```
 
+---
 ### Step 2 - Add our javascript to your site. # {#widgets-step-2}
 Highlight and copy all of the content in the block below. After you have successfully done this paste it into the 
 `<head>` tag of your website.
@@ -52,6 +55,7 @@ Highlight and copy all of the content in the block below. After you have success
 ```
 > If you are interested in what this code does please [click here](/docs/how-are-widgets-loaded) to find out.
 
+---
 ### Step 3 - Configuring your widgets # {#widgets-step-3}
 We allow our widgets to be configured to just how you want them. 
 
@@ -72,6 +76,7 @@ For more information on how to configure the available widgets please see the be
     <li><a href="/docs/live-rate-board-configuration">Live rate board</a></li> 
 </ul> 
 
+---
 ### Step 4 - Styling your widgets # {#widgets-step-4}
 Someone from your company should be assigned this step who has some knowledge of website design as this step will dive 
 into the world of styling through a programming language called `CSS`.

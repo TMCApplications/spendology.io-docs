@@ -135,4 +135,17 @@ return [
             ],
         ],
     ],
+    'LiveRateBoard' => [
+        'standard' => [
+            'required' => $default,
+            'optional' => array_merge($banner, [
+                'button_text' => [
+                    'displayName' => 'Button text',
+                    'default' => '"Get an instant quote"',
+                    'descriptionIncludePath' => $includeRoot . 'optional.button_text',
+                ],
+                'error_message' => $errorMessage,
+            ]),
+        ],
+    ],
 ];

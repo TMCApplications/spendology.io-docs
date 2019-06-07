@@ -1,7 +1,7 @@
 ---
-title: Widgets | Instant quote configuration
+title: Widgets | Instant Quote Configuration
 widget: InstantQuote
-description: Reference for the Instant Quote configuration
+description: Reference for the Instant Quote widget configuration
 extends: _partials.widgets.configuration
 section: heading-content
 ---

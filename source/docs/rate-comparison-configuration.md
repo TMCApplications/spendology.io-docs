@@ -1,7 +1,7 @@
 ---
-title: Widgets | Instant quote configuration
+title: Widgets | Rate Comparison Configuration
 widget: RateComparison
-description: Reference for the Instant Quote configuration
+description: Reference for the Rate Comparison configuration
 extends: _partials.widgets.configuration
 section: heading-content
 ---

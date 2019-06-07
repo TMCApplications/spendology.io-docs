@@ -54,7 +54,8 @@ $hasRender = $render && count($render);
         </div>
     </div>
 
-    <hr />
+    <hr class="divider"/>
+
     @if($hasRender)
         <h4 id="type-standard">Widget Configuration</h4>
         <p>These properties should be passed as an object to the <code>SPENDOLGOY.{{$widget}}.new</code> function.</p>
@@ -64,12 +65,13 @@ $hasRender = $render && count($render);
     @foreach($standard as $type => $properties)
         @include('_partials.widgets.config_description_item', compact('group', 'type', 'properties'))
         @if(!$loop->last)
-            <hr />
+            <hr class="subtle" />
         @endif
     @endforeach
 
+
     @if($hasRender)
-        <hr />
+        <hr class="divider" />
         <h4 id="type-render">Render Configuration</h4>
         <p>These properties should be passed as an object to the <code>SPENDOLGOY.{{$widget}}.render</code> function.</p>
 

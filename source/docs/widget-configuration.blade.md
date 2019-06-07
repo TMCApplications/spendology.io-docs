@@ -18,6 +18,8 @@ Once you have downloaded the above file open it and use this guide as a breakdow
 
 @include('_partials.page_menu_medium')
 
+<hr class="divider" />
+
 ### Waiting for the widgets to be downloaded # {#widgets-loaded-event-listener}
 The whole config is wrapped in an event listener listening for the `SPENDOLOGY_WIDGETS_LOADED` event. 
 
@@ -29,6 +31,7 @@ window.addEventListener('SPENDOLOGY_WIDGETS_LOADED', function () {
 
 > If you want to know what fires this event then please see the "[How are the widgets loaded?](/docs/how-are-widgets-loaded)" guide.
 
+---
 ### Check if the expected widget placeholder exists # {#widgets-placeholder-check}
 You should notice that inside the example config file each the widgets and their configurations are wrapped in a check 
 to see that the widget placeholder exists on the page.
@@ -47,6 +50,7 @@ current page.
 [installation guide](/docs/installing-our-widgets#widgets-step-1), enter those identifiers in at this section for each 
 of the widgets in the config.
 
+---
 ### Configuring your widgets # {#widgets-add-config}
 The final part is adding the configuration settings for your widgets.
  
