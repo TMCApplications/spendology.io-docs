@@ -10,6 +10,10 @@ a {
     &:hover {
         @apply .text-violet-400;
     }
+
+    &.menu-normal {
+      @apply .text-sm .font-normal;
+    }
 }
 
 blockquote {

@@ -8,4 +8,5 @@ section: heading-content
 
 # Rate comparison # {#rate-comparison-configuration-api} 
 
-The rate comparison widget allows your customers to compare your rates with the high street.
+The rate comparison widget allows your customers to compare your rates with the high street. It is displayed as a slider
+with one currency on each slide showing your currrent rate and the current rate of our comparison companies.

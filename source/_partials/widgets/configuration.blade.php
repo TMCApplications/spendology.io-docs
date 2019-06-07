@@ -3,25 +3,37 @@
 @php
 $widget = $page->widget;
 $configs = $page->widgets->configs->{$widget};
-$standard = $configs->standard;
-$render = $configs->render;
+$standard = $configs->properties->standard;
+$render = $configs->properties->render;
+$hasRecommended = !!$configs->recommended;
 $hasRender = $render && count($render);
 @endphp
+
+@section('widget_configuration_js')
+    <p>
+        These properties should be passed as an object to the <code>new</code> function:
+    </p>
+
+    <pre><code class="language-javascript">{{"SPENDOLGOY.$widget.new"}}</code></pre>
+@endsection
 
 @section('content')
     @yield('heading-content')
 
     <h3 id="basic">Configuration API</h3>
     <p class="mb-0">Please find the full configuration list for the {{$widget}} widget.</p>
-    <p class="mb-0">
-        We recommend that you include
-        <strong>
-            <span class="recommended">Highlighted</span>
-        </strong> optional properties in your configuration file.
-    </p>
+
+    @if($hasRecommended)
+        <p class="mb-0">
+            We recommend that you include
+            <strong>
+                <span class="recommended">Highlighted</span>
+            </strong> optional properties in your configuration file.
+        </p>
+    @endif
 
     @if(!$hasRender)
-        <p>These properties should be passed to the <code>SPENDOLGOY.{{$widget}}.new</code> function.</p>
+        @yield('widget_configuration_js')
     @endif
 
 
@@ -58,14 +70,15 @@ $hasRender = $render && count($render);
 
     @if($hasRender)
         <h4 id="type-standard">Widget Configuration</h4>
-        <p>These properties should be passed as an object to the <code>SPENDOLGOY.{{$widget}}.new</code> function.</p>
+        @yield('widget_configuration_js')
+        <hr />
     @endif
 
     @php($group = 'standard')
     @foreach($standard as $type => $properties)
         @include('_partials.widgets.config_description_item', compact('group', 'type', 'properties'))
         @if(!$loop->last)
-            <hr class="subtle" />
+            <hr />
         @endif
     @endforeach
 
@@ -73,7 +86,13 @@ $hasRender = $render && count($render);
     @if($hasRender)
         <hr class="divider" />
         <h4 id="type-render">Render Configuration</h4>
-        <p>These properties should be passed as an object to the <code>SPENDOLGOY.{{$widget}}.render</code> function.</p>
+        <p>
+            These properties should be passed as an object to the <code>render</code> function:
+        </p>
+
+        <pre><code class="language-javascript">{{"SPENDOLGOY.$widget.new({}).render"}}</code></pre>
+
+        <hr />
 
         @php($group = 'render')
         @foreach($render as $type => $properties)

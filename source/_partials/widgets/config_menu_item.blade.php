@@ -4,10 +4,8 @@
         <ul class="ml-5">
             @foreach($properties as $propertyName => $property)
                 <li>
-                    <a href="#{{$group}}_{{$type}}_{{$propertyName}}" title="{{$property->displayName}}">
-                        <span class="{{$property->recommended ? 'recommended' : ''}} text-sm font-normal">
-                            {{$property->displayName}}
-                        </span>
+                    <a href="#{{$group}}_{{$type}}_{{$propertyName}}" title="{{$property->displayName}}" class="{{$property->recommended ? 'recommended' : ''}} menu-normal">
+                        {{$property->displayName}}
                     </a>
                 </li>
             @endforeach

@@ -12,14 +12,14 @@
 
     <input
         id="docsearch-input"
-        class="docsearch-input relative block h-10 transition-fast w-full lg:w-1/2 xl:w-1/3 bg-gray-100 outline-none rounded-full text-gray-700 border border-transparent ml-auto px-4 pb-0 focus:bg-white focus:border-gray-300"
+        class="docsearch-input relative block h-10 transition-fast w-full lg:w-1/2 xl:w-1/3 bg-gray-200 border-gray-300 outline-none rounded-lg text-gray-800 border border-transparent ml-auto px-4 pb-0 focus:shadow-md "
         name="docsearch"
         type="text"
         placeholder="Search the docs"
     >
 
     <button
-        class="md:hidden absolute pin-t pin-r h-full font-normal text-3xl text-blue-500 hover:text-blue-600 focus:outline-none -mt-px pr-7"
+        class="md:hidden absolute top-0 right-0 h-full font-normal text-3xl text-sea-green-500 hover:text-violet-400 focus:outline-none -mt-px pr-7"
         onclick="searchInput.toggle()"
     >&times;</button>
 </div>

@@ -1,10 +1,10 @@
 // Add your custom styles here
 .recommended {
   @apply .bg-sea-green-500 .text-white .px-1;
+}
 
-  a &:hover {
-    @apply bg-violet-500;
-  }
+a:hover.recommended {
+  @apply text-white bg-violet-500;
 }
 
 .language-wrap {
