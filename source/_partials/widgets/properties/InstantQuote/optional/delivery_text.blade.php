@@ -1,5 +1,5 @@
 Displays underneath the instant quote, but above the
-<a href="#{{$group}}_{{$type}}_footer_text">"Footer text"</a> content. If you do not define this message or leave it
+<a href="#{{$group}}_{{$type}}_footer_text" title="Footer text">"Footer text"</a> content. If you do not define this message or leave it
 empty then it will not display anything. Please find an example message below:
 
 <pre><code class="language-none language-wrap">{{

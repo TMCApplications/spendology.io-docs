@@ -5,7 +5,7 @@
 @endsection
 
 @section('body')
-<section class="container max-w-8xl mx-auto px-6 md:px-8 py-4">
+<section class="container max-w-8xl mx-auto px-2 py-2 md:px-8 lg:py-4">
     <div class="flex flex-col lg:flex-row">
         <nav id="js-nav-menu" class="nav-menu hidden lg:block">
             @include('_nav.menu', ['items' => $page->navigation])
@@ -15,7 +15,7 @@
                 @yield('content')
             </div>
             @if(!$page->hideBackToTop)
-                <p class="text-right"><a href="#top-of-the-page">Back to the top</a></p>
+                <p class="text-right"><a href="#top-of-the-page" title="Back to the top">Back to the top</a></p>
             @endif
         </div>
         <div id="page-menu" class="hidden lg:block lg:p-5 lg:w-1/4">

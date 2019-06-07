@@ -46,7 +46,7 @@ return [
                     'descriptionIncludePath' => $includeRoot . 'optional.button_text',
                 ],
                 'capture_travel_information' => [
-                    'displayName' => 'Capture Travel Information',
+                    'displayName' => 'Capture travel information',
                     'default' => 'false',
                     'descriptionIncludePath' => $instantQuoteRoot . 'optional.capture_travel_information'
                 ],
@@ -73,12 +73,12 @@ return [
                     'descriptionIncludePath' => $instantQuoteRoot . 'optional.heading_text',
                 ],
                 'max_gbp' => [
-                    'displayName' => 'Maximum Quote Amount',
+                    'displayName' => 'Maximum quote amount',
                     'default' => 2500,
                     'descriptionIncludePath' => $instantQuoteRoot . 'optional.max_gbp',
                 ],
                 'min_gbp' => [
-                    'displayName' => 'Minimum Quote Amount',
+                    'displayName' => 'Minimum quote amount',
                     'default' => 100,
                     'descriptionIncludePath' => $instantQuoteRoot . 'optional.min_gbp',
                 ],
@@ -86,6 +86,11 @@ return [
                     'displayName' => 'Saving text',
                     'default' => '""',
                     'descriptionIncludePath' => $instantQuoteRoot . 'optional.saving_text',
+                ],
+                'selected_currency' => [
+                    'displayName' => 'Selected currency',
+                    'default' => 'null',
+                    'descriptionIncludePath' => $instantQuoteRoot . 'optional.selected_currency',
                 ],
             ]),
         ],
