@@ -20,12 +20,6 @@ return [
                     'Typography' => 'docs/styling-typography',
                 ]
             ],
-            'Frequently asked questions' => [
-                'children' => [
-                    'How do I get the external urls?' => 'docs/external-urls',
-                    'How are the widgets loaded?' => 'docs/how-are-widgets-loaded',
-                ]
-            ]
         ],
     ],
 ];

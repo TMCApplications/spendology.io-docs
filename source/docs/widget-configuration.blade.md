@@ -29,8 +29,6 @@ window.addEventListener('SPENDOLOGY_WIDGETS_LOADED', function () {
 });
 ```
 
-> If you want to know what fires this event then please see the "[How are the widgets loaded?](/docs/how-are-widgets-loaded)" guide.
-
 ---
 ### Check if the expected widget placeholder exists # {#widgets-placeholder-check}
 You should notice that inside the example config file each the widgets and their configurations are wrapped in a check 

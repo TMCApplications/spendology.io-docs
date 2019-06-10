@@ -53,7 +53,6 @@ Highlight and copy all of the content in the block below. After you have success
 }();
 </script>
 ```
-> If you are interested in what this code does please [click here](/docs/how-are-widgets-loaded) to find out.
 
 ---
 ### Step 3 - Configuring your widgets # {#widgets-step-3}

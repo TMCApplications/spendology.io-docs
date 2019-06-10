@@ -26,9 +26,8 @@ $hasRender = $render && count($render);
     @if($hasRecommended)
         <p class="mb-0">
             We recommend that you include
-            <strong>
-                <span class="recommended">Highlighted</span>
-            </strong> optional properties in your configuration file.
+            <strong class="recommended">Highlighted</strong>
+            optional properties in your configuration file.
         </p>
     @endif
 
