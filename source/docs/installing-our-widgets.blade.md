@@ -40,8 +40,8 @@ On your website where you want the widgets to display add the below html snippet
 
 ---
 ### Step 2 - Add our javascript to your site. # {#widgets-step-2}
-Highlight and copy all of the content in the block below. After you have successfully done this paste it into the 
-`<head>` tag of your website.
+Highlight and copy all of the content in the block below. After you have successfully done this paste it at the bottom 
+before the end of the `</body>` tag of your website.
 
 ```html
 <script>
