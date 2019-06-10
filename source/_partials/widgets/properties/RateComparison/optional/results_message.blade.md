@@ -2,13 +2,13 @@ If you want to display a savings comparison with the high street on this widget 
 the value of this configuration setting. See example message below:
 
 <pre><code class="language-none language-wrap">{{
-    "Get this £{saving} right now when exchanging £{comparison_amount}."
+    "Get this Â£{saving} right now when exchanging Â£{comparison_amount}."
 }}</code></pre>
 
 Which after all the place holders are replaced this message would say something like:
 
 <pre><code class="language-none language-wrap">{{
-    "Get this £27.32 right now when exchanging £2500"
+    "Get this Â£27.32 right now when exchanging Â£2500"
 }}</code></pre>
 
 <blockquote>
