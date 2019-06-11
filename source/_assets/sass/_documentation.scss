@@ -10,3 +10,9 @@ a:hover.recommended {
 .language-wrap {
   @apply .overflow-x-auto .whitespace-pre-wrap .break-words;
 }
+
+.scroll-hidden::-webkit-scrollbar { width: 0 !important }
+.scroll-hidden {
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+}

@@ -85,6 +85,9 @@ module.exports = {
         '7': '1.75rem',
         '9': '2.25rem',
       },
+      maxHeight: {
+          '80': '80vh'
+      },
       maxWidth: {
         '7xl': '80rem',
         '8xl': '90rem',

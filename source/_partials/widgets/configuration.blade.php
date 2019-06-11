@@ -105,7 +105,7 @@ $hasRender = $render && count($render);
 
 @section('page-menu')
     @if($hasRender)
-        <h6><a href="#type-standard">Widget configuration</a></h6>
+        <h6 class="mt-4" ><a href="#type-standard">Widget configuration</a></h6>
     @endif
     <ul class="ml-5">
         @php($group = 'standard')
@@ -116,7 +116,7 @@ $hasRender = $render && count($render);
 
     @if($hasRender)
         <div>
-            <h6><a href="#type-render">Render configuration</a></h6>
+            <h6 class="mt-4"><a href="#type-render">Render configuration</a></h6>
             <ul class="ml-5">
                 @php($group = 'render')
                 @foreach($render as $type => $properties)

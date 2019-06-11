@@ -10,7 +10,8 @@
         <nav id="js-nav-menu" class="nav-menu hidden lg:block">
             @include('_nav.menu', ['items' => $page->navigation])
         </nav>
-        <div class="w-full lg:w-3/5 break-words pb-16" v-pre>
+        <div class="w-full lg:w-3/5 break-words pb-16 lg:max-h-80 lg:overflow-y-auto scroll-hidden" v-pre>
+            <span id="top-of-the-page"></span>
             <div class="bg-white shadow-lg rounded-lg p-5 ">
                 @yield('content')
             </div>
