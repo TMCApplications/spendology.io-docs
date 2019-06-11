@@ -98,6 +98,10 @@ return [
                         'default' => 'null',
                         'descriptionIncludePath' => $instantQuoteRoot . 'optional.on_submit',
                     ],
+                ]),
+            ],
+            'render' => [
+                'optional' => [
                     'selected_currency' => [
                         'displayName' => 'Selected currency',
                         'default' => 'null',
@@ -113,7 +117,12 @@ return [
                         'default' => 'null',
                         'descriptionIncludePath' => $instantQuoteRoot . 'optional.selected_destination',
                     ],
-                ]),
+                    'spend' => [
+                        'displayName' => 'Spend amount',
+                        'default' => 750,
+                        'descriptionIncludePath' => $instantQuoteRoot . 'optional.spend',
+                    ],
+                ]
             ]
         ],
     ],
