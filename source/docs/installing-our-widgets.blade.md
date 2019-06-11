@@ -80,20 +80,17 @@ For more information on how to configure the available widgets please see the be
 Someone from your company should be assigned this step who has some knowledge of website design as this step will dive 
 into the world of styling through a programming language called `CSS`.
 
-<a href="/examples/spendology-widgets.css" target="_blank" download>
-Click to download an example CSS stylesheet file
+<a href="/examples/spendology_widgets_bundle.zip" target="_blank" download>
+Click to download the example bundle ZIP file.
 </a>
+
+If you extract the ZIP file and open the `index.html` file in a browser this will load a page with all the widgets 
+displayed. Included in the bundle is a `spendology_widget.css` file edit this to customize the colors to match your 
+website.
 
 Once you have changed the stylesheet to meet your requirements you should also add this into the `<head>` tag of your 
 website.
 
 ```html
-<link rel="stylesheet" href="//yourwebsite.com/css/spendology-widgets.css" />
+<link rel="stylesheet" href="//yourwebsite.com/css/spendology_widget.css" />
 ```
-
-For more information on how to style the available widgets please see the below guides:
-<ul class="list-disc ml-10">
-    <li><a href="/docs/widget-styling">Before you start</a></li>
-    <li><a href="/docs/styling-components">Components</a></li> 
-    <li><a href="/docs/styling-typography">Typography</a></li> 
-</ul> 

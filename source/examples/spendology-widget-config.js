@@ -1,6 +1,6 @@
 window.addEventListener('SPENDOLOGY_WIDGETS_LOADED', function () {
-    var apiUrl = 'https://api.travelmoney.yourwebsite.com';
-    var appSignUpUrl = 'https://app.travelmoney.yourwebsite.com/signup';
+    var apiUrl = 'https://tmc.mockable.io';
+    var appSignUpUrl = 'https://google.co.uk';
 
     /*************************************************
      * Instant Quote

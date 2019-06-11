@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Spendology - Widgets</title>
+    <link rel="stylesheet" href="spendology_widget.css" type="text/css" />
+    <style>
+        /* GLOBALS (JUST HERE FOR LOCAL PRESENTATION) */
+        body {
+            background: #fff;
+            color: #333;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 1.4;
+        }
+
+        img,
+        svg,
+        video,
+        embed,
+        iframe {
+            height: auto;
+            max-width: 100%;
+        }
+
+        .site {
+            padding: calc( 20px * 4 ) 20px;
+        }
+
+        .widget {
+            border-bottom: 1px solid rgba( 0, 0, 0, 0.1 );
+            margin: 0 auto;
+            margin-bottom: calc( 20px * 4 );
+            max-width: 540px;
+            padding-bottom: calc( 20px * 4 );
+        }
+
+        .widget:last-of-type {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="site">
+        <div class="widget">
+            <div id="InstantQuote"></div>
+        </div>
+        <div class="widget">
+            <div id="RateComparison"></div>
+        </div>
+        <div class="widget">
+            <div id="LiveRateBoard"></div>
+        </div>
+    </div>
+
+    <script src="spendology-widget-config.js" type="text/javascript"></script>
+    <script>
+        !function(){var e=document.createElement("script");document.getElementsByTagName("body")[0].appendChild(e),e.setAttribute("src","https://widget.spendology.io/v3/loader.min.js?"+(new Date).getTime())}();
+    </script>
+</body>
+</html>
