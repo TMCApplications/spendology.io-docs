@@ -10,6 +10,8 @@ section: content
 # Examples
 See below for a visual example of each of the widgets we offer.
 
+@include('_partials.widgets.bundle_link')
+
 <iframe src="/examples/index.html" class="w-full scroll-hidden h-full" onload="resizeIframe(this)"></iframe>
 
 <script>

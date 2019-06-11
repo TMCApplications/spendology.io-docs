@@ -18,6 +18,7 @@ mix.webpackConfig({
             'source/**/*.md',
             'source/**/*.php',
             'source/**/*.scss',
+            'source/examples/*',
             'widgets/*.php'
         ]),
     ],
