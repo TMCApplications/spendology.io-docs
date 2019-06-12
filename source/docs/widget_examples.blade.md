@@ -17,7 +17,7 @@ See below for a visual example of each of the widgets we offer.
 
 <script>
   function resizeIframe(obj) {
-    obj.style.height = (obj.contentWindow.document.body.scrollHeight + 1450) + 'px';
+    obj.style.height = (obj.contentWindow.document.body.scrollHeight + 1500) + 'px';
     
     setTimeout(function() {
         obj.style.height = (obj.contentWindow.document.body.scrollHeight + 100) + 'px';
