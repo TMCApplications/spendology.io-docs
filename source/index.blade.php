@@ -27,7 +27,7 @@
             <img src="/img/play-tick.png" class="h-12 w-12" alt="window icon">
 
             <h3 id="intro-laravel" class="text-2xl text-blue-900 mb-0">Helpful intuitive widgets</h3>
-            <p class="text-sm mt-0"><a href="/docs/introduction">Get started today!</a></p>
+            <p class="text-sm mt-0"><a href="/docs/installing-our-widgets">Get started today!</a></p>
 
             <p>Integrate our clever widgets into your website and online marketing and give your customers access to live rate boards, instant quotes and competitor comparison widgets.</p>
         </div>
