@@ -4,5 +4,5 @@
 [[redirects]]
     from = "https://spendology-io-docs.netlify.com/*"
     to = "https://docs.spendology.dev/:splat"
-    status = "301"
+    status = 301
     force = true
