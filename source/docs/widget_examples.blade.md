@@ -3,6 +3,7 @@ title: Widget examples
 description: Examples of configured and styled widgets.
 hidePageMenu: true
 hideBackToTop: true
+noScroll: true
 extends: _layouts.documentation
 section: content
 ---
@@ -16,6 +17,10 @@ See below for a visual example of each of the widgets we offer.
 
 <script>
   function resizeIframe(obj) {
-    obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+    obj.style.height = (obj.contentWindow.document.body.scrollHeight + 1450) + 'px';
+    
+    setTimeout(function() {
+        obj.style.height = (obj.contentWindow.document.body.scrollHeight + 100) + 'px';
+    }, 2000);
   }
 </script>
