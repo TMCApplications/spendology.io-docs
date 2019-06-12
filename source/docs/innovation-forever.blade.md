@@ -1,6 +1,7 @@
 ---
 title: Getting Started
-description: Getting integrated with Spendology is as easy as 1, 2, 3.
+description: "At Spendology, we’re continually inventing and innovating. We always have an exciting plan of new 
+technologies in development to wow your customers. As soon as they’re launched, they’re yours too."
 hidePageMenu: true
 hideBackToTop: true
 extends: _layouts.documentation
@@ -9,7 +10,7 @@ section: content
 
 # Innovation forever {#getting-started}
 
-At Spendology, we’re continually inventing and innovating. We always have an exciting plan of new technologies in development to wow your customers. As soon as they’re launched, they’re yours too.
+{{$page->description}}
 
 <hr class="divider" />
 

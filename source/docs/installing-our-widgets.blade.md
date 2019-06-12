@@ -1,6 +1,7 @@
 ---
-title: Widgets Installation Guide
-description: Adding our widgets to your website is easy peasy.
+title: Widgets | Installation Guide
+description: "There are four easy steps to adding our widgets to your site. All of these steps must be completed in 
+order for a successful installation."
 pageItems:
     widgets-step-1: Step 1 - Add the widget placeholders
     widgets-step-2: Step 2 - Add our javascript to your site
@@ -11,8 +12,7 @@ section: content
 ---
 
 # Installing our widgets {#installing-our-widgets}
-There are four easy steps to adding our widgets to your site. 
-All of these steps must be completed in order for a successful installation.
+{{$page->description}}
 
 @include('_partials.page_menu_medium')
 

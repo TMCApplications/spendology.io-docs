@@ -1,6 +1,8 @@
 ---
 title: Widgets | Understanding the structure
-description: Learn how to construct your widget configuration file
+description: "The widget configuration file allows you to customise the widgets to meet your needs down to the finest of 
+details. From displaying banners to controlling the websites customers are directed to when clicking the buttons and 
+links on the widgets."
 pageItems:
     widgets-loaded-event-listener: Waiting for the widgets to be downloaded
     widgets-placeholder-check: Check if the expected widget placeholder exists
@@ -10,6 +12,8 @@ section: content
 ---
 
 # Understanding the structure # {#widget-configuration}
+{{$page->description}}
+
 If you haven't already you should download the example config on the link below.
 
 @include('_partials.widgets.config_example_link')

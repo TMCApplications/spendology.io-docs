@@ -1,6 +1,6 @@
 ---
-title: Widget examples
-description: Examples of configured and styled widgets.
+title: Widgets | Examples
+description: See what our widgets looked like when correctly configured and styled to match your websites theme.
 hidePageMenu: true
 hideBackToTop: true
 noScroll: true
