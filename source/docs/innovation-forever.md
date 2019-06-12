@@ -19,9 +19,4 @@ Integrate our clever widgets into your website and online marketing and give you
 
 [Start adding our widgets to your site here](/docs/installing-our-widgets)
 
----
-
-## The voice of Alexa
-
-Coming soon. Voice technology and digital assistants are changing how the nation browses and shops. Your customers can use their Amazon Echo to check exchange rates and to create and track orders.
 

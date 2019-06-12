@@ -5,7 +5,7 @@ return [
     'Widgets' => [
         'children' => [
             'Installation' => 'docs/installing-our-widgets',
-            'Examples' => 'docs/widget_examples',
+            'Examples' => 'docs/widget-examples',
             'Configuration' => [
                 'children' => [
                     'Understanding the structure' => 'docs/widget-configuration',
