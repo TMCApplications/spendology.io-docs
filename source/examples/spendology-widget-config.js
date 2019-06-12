@@ -1,6 +1,5 @@
 window.addEventListener('SPENDOLOGY_WIDGETS_LOADED', function () {
     var apiUrl = 'https://tmc.mockable.io';
-    var appSignUpUrl = 'https://google.co.uk';
 
     /*************************************************
      * Instant Quote
@@ -10,7 +9,7 @@ window.addEventListener('SPENDOLOGY_WIDGETS_LOADED', function () {
         var instantQuoteOptions = {
             selector: "#" + instantQuoteId,
             api_url: apiUrl,
-            button_url: appSignUpUrl,
+            button_url: 'javascript:void(0);',
             button_text: 'Buy now',
             delivery_text: "* We charge £4.95 for delivery. ",
             footer_text: "This will appear underneath the widget. You can put <b>html code</b> in here." +
@@ -35,7 +34,7 @@ window.addEventListener('SPENDOLOGY_WIDGETS_LOADED', function () {
         var rateComparisonOptions = {
             selector: "#" + rateComparisonId,
             api_url: apiUrl,
-            button_url: appSignUpUrl,
+            button_url: 'javascript:void(0);',
             button_text: 'Buy now',
             poll_frequency:  60000,
         };
@@ -55,7 +54,7 @@ window.addEventListener('SPENDOLOGY_WIDGETS_LOADED', function () {
         var liveRateBoardOptions = {
             selector: "#" + liveRateBoardId,
             api_url: apiUrl,
-            button_url: appSignUpUrl,
+            button_url: 'javascript:void(0);',
             button_text: 'Buy now',
             refresh_interval: 60000,
         };
