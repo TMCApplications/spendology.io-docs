@@ -37,6 +37,7 @@ window.addEventListener('SPENDOLOGY_WIDGETS_LOADED', function () {
             api_url: apiUrl,
             button_url: appSignUpUrl,
             button_text: 'Buy now',
+            poll_frequency:  60000,
         };
 
         SPENDOLOGY.RateComparison.new(rateComparisonOptions).render({
@@ -56,6 +57,7 @@ window.addEventListener('SPENDOLOGY_WIDGETS_LOADED', function () {
             api_url: apiUrl,
             button_url: appSignUpUrl,
             button_text: 'Buy now',
+            refresh_interval: 60000,
         };
         SPENDOLOGY.LiveRateBoard.new(liveRateBoardOptions).render();
     }
