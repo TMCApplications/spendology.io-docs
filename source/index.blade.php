@@ -1,7 +1,7 @@
 @extends('_layouts.master')
 
 @section('body')
-<section class="container max-w-6xl mx-auto px-6 py-10 md:py-12 xs:py-6 lg:mt-32">
+<section class="container max-w-6xl mx-auto px-6 py-10 md:py-12 xs:py-6 lg:mt-32 lg:py-8">
     <div class="flex flex-col-reverse mb-10 lg:flex-row lg:mb-16">
         <div class="mt-8 xs:mt-0">
             <h1 id="intro-heading" class="text-3xl sm:text-4xl lg:text-5xl font-normal">
