@@ -21,7 +21,7 @@
             </div>
         </div>
 
-        <img src="/img/play-green-cloud.png" alt="{{ $page->siteName }} large logo" class="mx-auto mb-6 hidden lg:mb-0 lg:block h-64">
+        <img src="/img/play-tick.png" alt="{{ $page->siteName }} large logo" class="mx-auto mb-6 hidden lg:mb-0 lg:block h-64">
     </div>
 </section>
 @endsection
