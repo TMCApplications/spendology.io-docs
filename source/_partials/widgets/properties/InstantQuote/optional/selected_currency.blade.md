@@ -1,5 +1,5 @@
 This setting allows you to define which currency is selected by default when the widget is loaded. This can be
-useful when page is designed speciically for a currency.
+useful when page is designed specifically for a currency.
 
 Another possible use is if customer comes to the widget page via a url which contains a currency code (e.g.
 `example.com/instant-quote?currency_code=USD`). However, you would need to handle reading the currency code

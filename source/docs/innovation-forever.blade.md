@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-description: "We’re a technology disrupter and we’re ready to help you get your share of the £50bn travel cash market 
+description: "We are a technology disruptor and we’re ready to help you get your share of the £50bn travel cash market 
 with the UK’s only fully outsourced, white label cash delivery solution."
 hidePageMenu: true
 hideBackToTop: true
