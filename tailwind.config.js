@@ -96,8 +96,8 @@ module.exports = {
       padding: {
         '7': '1.75rem'
       },
-      shadows: {
-        'lg': '0 -1px 27px 0 rgba(0, 0, 0, 0.04), 0 4px 15px 0 rgba(0, 0, 0, 0.08)',
+      boxShadow: {
+        'b-lg': '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -6px rgba(0, 0, 0, 0.05)'
       },
       fontSize: {
         'xs': '.8rem',

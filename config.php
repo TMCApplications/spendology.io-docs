@@ -6,8 +6,10 @@ return [
     'baseUrl' => '',
     'production' => false,
     'siteName' => 'Spendology Docs',
-    'siteHeading' => 'Service integration made easy',
-    'siteDescription' => '',
+    'siteHeadingLead' => 'Travel money the Spendology way.',
+    'siteHeadingEnd' => 'All of the profit, none of the headache.',
+    'siteDescription' => 'We always have an exciting plan of new technologies in development to wow your customers and'
+        . ' as soon as they are launched, they are yours too.',
 
     // Algolia DocSearch credentials
     'docsearchApiKey' => 'TBD',

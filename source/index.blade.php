@@ -4,11 +4,15 @@
 <section class="container max-w-6xl mx-auto px-6 py-10 md:py-12 xs:py-6 lg:mt-32">
     <div class="flex flex-col-reverse mb-10 lg:flex-row lg:mb-16">
         <div class="mt-8 xs:mt-0">
-            <h1 id="intro-heading">{{ $page->siteHeading }}</h1>
+            <h1 id="intro-heading" class="text-3xl sm:text-4xl lg:text-5xl font-normal">
+                {{ $page->siteHeadingLead }}
+                <br class="hidden sm:block"/>
+                <span class="text-sea-green-500">
+                    {{ $page->siteHeadingEnd }}
+                </span>
+            </h1>
 
-            <h2 id="intro-description" class="font-normal mt-4">{{ $page->siteDescription }}</h2>
-
-            <p class="text-lg">Travel money the Spendology way. <br class="hidden sm:block">All of the profit, none of the headache.</p>
+            <p id="intro-description" class="text-lg lg:mr-24">{{ $page->siteDescription }}</p>
 
             <div class="flex my-10">
                 <a href="/docs/innovation-forever" title="{{ $page->siteName }} getting started" class="bg-sea-green-500 hover:bg-sea-green-600 font-normal text-white font-semibold hover:text-white rounded-lg shadow-lg mr-4 py-2 px-6">Get Started</a>

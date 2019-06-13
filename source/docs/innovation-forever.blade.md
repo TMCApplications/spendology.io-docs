@@ -1,15 +1,13 @@
 ---
 title: Getting Started
-description: "At Spendology, we’re continually inventing and innovating. We always have an exciting plan of new 
-technologies in development to wow your customers. As soon as they’re launched, they’re yours too."
+description: "We’re a technology disrupter and we’re ready to help you get your share of the £50bn travel cash market 
+with the UK’s only fully outsourced, white label cash delivery solution."
 hidePageMenu: true
 hideBackToTop: true
 extends: _layouts.documentation
 section: content
 ---
-
-# Innovation forever {#getting-started}
-
+# Getting Started
 {{$page->description}}
 
 <hr class="divider" />
