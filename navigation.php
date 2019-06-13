@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'Getting started' => 'docs/innovation-forever',
+    'Getting started' => 'docs/getting-started',
     'Widgets' => [
         'children' => [
             'Installation' => 'docs/installing-our-widgets',

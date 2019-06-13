@@ -15,7 +15,7 @@
             <p id="intro-description" class="text-lg lg:mr-24">{{ $page->siteDescription }}</p>
 
             <div class="flex my-10">
-                <a href="/docs/innovation-forever" title="{{ $page->siteName }} getting started" class="bg-sea-green-500 hover:bg-sea-green-600 font-normal text-white font-semibold hover:text-white rounded-lg shadow-lg mr-4 py-2 px-6">Get Started</a>
+                <a href="/docs/getting-started" title="{{ $page->siteName }} getting started" class="bg-sea-green-500 hover:bg-sea-green-600 font-normal text-white font-semibold hover:text-white rounded-lg shadow-lg mr-4 py-2 px-6">Get Started</a>
 
                 <a href="https://www.spendology.com/" title="Spendology Cloud" class="bg-white hover:bg-gray-200 text-gray-800 hover:text-gray-800 font-semibold rounded-lg shadow-lg py-2 px-6">Why Spendology?</a>
             </div>
