@@ -14,7 +14,7 @@ $hasRender = $render && count($render);
         These properties should be passed as an object to the <code>new</code> function:
     </p>
 
-    <pre><code class="language-javascript">{{"SPENDOLGOY.$widget.new"}}</code></pre>
+    <pre><code class="language-javascript">{{"SPENDOLOGY.$widget.new"}}</code></pre>
 @endsection
 
 @section('content')
@@ -89,7 +89,7 @@ $hasRender = $render && count($render);
             These properties should be passed as an object to the <code>render</code> function:
         </p>
 
-        <pre><code class="language-javascript">{{"SPENDOLGOY.$widget.new({}).render"}}</code></pre>
+        <pre><code class="language-javascript">{{"SPENDOLOGY.$widget.new({}).render"}}</code></pre>
 
         <hr />
 
