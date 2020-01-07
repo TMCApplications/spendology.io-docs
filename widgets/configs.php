@@ -43,6 +43,12 @@ $errorMessage = [
     'descriptionIncludePath' => $includeRoot . 'optional.error_message',
 ];
 
+$suspendedCurrencyText = [
+    'displayName' => 'Suspended currency text',
+    'default' => '"This currency is temporarily unavailable."',
+    'descriptionIncludePath' => $includeRoot . 'optional.suspended_currency_text',
+];
+
 return [
     'InstantQuote' => [
         'recommended' => true,
@@ -98,6 +104,7 @@ return [
                         'default' => 'null',
                         'descriptionIncludePath' => $instantQuoteRoot . 'optional.on_submit',
                     ],
+                    'suspended_currency_text' => $suspendedCurrencyText,
                 ]),
             ],
             'render' => [
@@ -167,6 +174,7 @@ return [
                         'default' => '3000 milliseconds (3 seconds)',
                         'descriptionIncludePath' => $rateComparisonRoot . 'optional.scroll_speed',
                     ],
+                    'suspended_currency_text' => $suspendedCurrencyText,
                 ]),
             ],
             'render' => [
@@ -201,6 +209,7 @@ return [
                     'default' => '5000 milliseconds (5 seconds)',
                     'descriptionIncludePath' => $liveRateBoardRoot . 'optional.refresh_interval',
                 ],
+                'suspended_currency_text' => $suspendedCurrencyText,
                 'visible_rows' => [
                     'displayName' => 'Visible rows',
                     'default' => '4',
