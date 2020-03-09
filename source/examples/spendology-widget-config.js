@@ -23,7 +23,8 @@ window.addEventListener('SPENDOLOGY_WIDGETS_LOADED', function () {
 
         SPENDOLOGY.InstantQuote.new(instantQuoteOptions).render({
             selected_currency: 'USD', 	// Default selected currency
-            spend: 750					// Default spend amount (GBP)
+            spend: 750,					// Default spend amount (GBP)
+            referral_code: null,
         });
     }
 
