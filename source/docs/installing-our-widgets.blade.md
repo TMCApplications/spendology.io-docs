@@ -58,7 +58,7 @@ before the end of the `</body>` tag of your website.
 ### Step 3 - Configuring your widgets # {#widgets-step-3}
 We allow our widgets to be configured to just how you want them. 
 
-@include('_partials.widgets.config_example_link')
+@include('_partials.widgets.bundle_link')
 
 Once you have changed the configuration to meet your requirements you should also add this into the `<head>` tag of 
 your website.

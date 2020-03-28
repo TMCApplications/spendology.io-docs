@@ -14,9 +14,9 @@ section: content
 # Understanding the structure # {#widget-configuration}
 {{$page->description}}
 
-If you haven't already you should download the example config on the link below.
+If you haven't already you should download the example bundle using the link below.
 
-@include('_partials.widgets.config_example_link')
+@include('_partials.widgets.bundle_link')
 
 Once you have downloaded the above file open it and use this guide as a breakdown of each part of the config.
 
