@@ -61,7 +61,7 @@ var liveRateBoardId = 'LiveRateBoard';
 if (document.getElementById(liveRateBoardId)) {
     var liveRateBoardOptions = {
         selector: "#" + liveRateBoardId,
-        api_url: 'https://api.travelmoney.yourwebsite.com',
+        api_url: 'https://api.abc.spendology.cloud',
         button_url: 'https://app.travelmoney.yourwebsite.com/signup',
         button_text: 'Buy now',
     };
