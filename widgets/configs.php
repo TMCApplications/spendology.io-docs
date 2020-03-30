@@ -183,7 +183,7 @@ return [
                 ]),
             ],
             'render' => [
-                'required' =>[
+                'optional' =>[
                     'currencies' => [
                         'displayName' => 'Currencies',
                         'default' => 'null',
