@@ -159,11 +159,6 @@ return [
                         'default' => '10000 milliseconds (10 seconds)',
                         'descriptionIncludePath' => $rateComparisonRoot . 'optional.poll_frequency',
                     ],
-                    'premium_rates_enabled' => [
-                        'displayName' => 'Premium rates enabled',
-                        'default' => 'false',
-                        'descriptionIncludePath' => $rateComparisonRoot . 'optional.premium_rates_enabled',
-                    ],
                     'results_message' => [
                         'displayName' => 'Saving message',
                         'default' => 'false',
