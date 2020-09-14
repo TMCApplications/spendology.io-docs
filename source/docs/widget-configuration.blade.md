@@ -73,7 +73,7 @@ event listener described above.
 
 Note that the first argument to this function requires you to put in the base domain that is shared between your marketing 
 website, and the currency order application. For example, if your marketing website is at `https://yourcompany.com`, and the 
-application is at `https:://travelmoney.yourcompany.com` then the shared domain between the two is `yourcompany.com`. 
+application is at `https://travelmoney.yourcompany.com` then the shared domain between the two is `yourcompany.com`. 
 
 However, in order for our app to be able to read a cookie that was saved on your marketing site you will need to prefix the 
 domain with a full stop `.`. Once you have put in your domain and expected URL parameter similar to the below code then 
