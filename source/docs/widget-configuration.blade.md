@@ -65,7 +65,7 @@ application from your marketing site we are able to record if a comparison site 
 they place an order.
  
 ```js
-SPENDOLOGY.saveReferralData('<your website base domain domain>', '<url parameter>')
+SPENDOLOGY.saveReferralData('<your website domain>', '<url parameter>')
 ```
 
 > **IMPORTANT!** This function must be called before any widgets below but also must be placed within the `SPENDOLOGY_WIDGETS_LOADED`
