@@ -57,7 +57,7 @@ of the widgets in the config.
 ### Save referral code # {#widgets-save-referral-code}
 If you do not plan to use comparison websites to attract customers to your currency services then you can skip this section.
 Comparison sites will provide a referral code on the website address when linking to your website. We will need access to this 
-within the currency order application we provide in order to track purchases for each referral provided. 
+within the currency order application we provide in order to track purchases for each referral provided.  
 
 In order to facilitate this we provide a `saveReferralData` function which will look for the provided parameter on the URL 
 (e.g. `?referral_code=ABC1234`). This function will save it as a cookie so that when they eventually get directed to the 
@@ -67,6 +67,9 @@ they place an order.
 ```js
 SPENDOLOGY.saveReferralData('<your website base domain domain>', '<url parameter>')
 ```
+
+> **IMPORTANT!** This function must be called before any widgets below but also must be placed within the `SPENDOLOGY_WIDGETS_LOADED`
+event listener described above.
 
 Note that the first argument to this function requires you to put in the base domain that is shared between your marketing 
 website, and the currency order application. For example, if your marketing website is at `https://yourcompany.com`, and the 
@@ -80,8 +83,8 @@ if you go to `yourcompany.com?referral_code=123456` the cookie should get saved.
 SPENDOLOGY.saveReferralData('.yourcompany.com', 'referral_code')
 ```
 
-> **IMPORTANT!** This function must be called before any widgets below but also must be placed within the `SPENDOLOGY_WIDGETS_LOADED`
-event listener described above. 
+> **Alternatively** you can pass a referral code to the Instant Quote widget configuration using the  `referral_code` property 
+[here](/docs/instant-quote-configuration/#render_optional_referral_code). 
 
 ---
 ### Configuring your widgets # {#widgets-add-config}
