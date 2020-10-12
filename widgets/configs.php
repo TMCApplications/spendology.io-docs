@@ -143,15 +143,30 @@ return [
             'standard' => [
                 'required' => $default,
                 'optional' => array_merge($banner, [
+                    'alternate_currency_text' => [
+                        'displayName' => 'Alternative currency message',
+                        'default' => '{target_currency_name} ({target_currency_code}) is not currently available so we are showing the FCO recommended alternative, {alternate_currency_name} ({alternate_currency_code}).',
+                        'descriptionIncludePath' => $rateComparisonRoot . 'optional.alternate_currency_text',
+                    ],
                     'button_text' => [
                         'displayName' => 'Button text',
                         'default' => '"Buy now"',
                         'descriptionIncludePath' => $includeRoot . 'optional.button_text',
                     ],
+                    'button_url_add_currency_code_field' => [
+                        'displayName' => 'Button url currency parameter',
+                        'default' => 'null',
+                        'descriptionIncludePath' => $rateComparisonRoot . 'optional.button_url_add_currency_code_field',
+                    ],
                     'comparison_amount' => [
                         'displayName' => 'Comparison amount',
                         'default' => '2500',
                         'descriptionIncludePath' => $rateComparisonRoot . 'optional.comparison_amount',
+                    ],
+                    'default_currency_text' => [
+                        'displayName' => 'Default currency message',
+                        'default' => '({target_currency_code}) is not currently available and there is no FCO recommended alternative so we are showing you our most popular currency, {default_currency_name} ({default_currency_code}).',
+                        'descriptionIncludePath' => $rateComparisonRoot . 'optional.default_currency_text',
                     ],
                     'error_message' => $errorMessage,
                     'poll_frequency' => [

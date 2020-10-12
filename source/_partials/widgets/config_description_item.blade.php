@@ -1,6 +1,6 @@
 @if(count($properties))
     <h5 id="{{$group}}-type-{{$type}}"><strong>{{ucfirst($type)}}</strong></h5>
-    @foreach($properties as $propertyName => $property)
+    @foreach($properties->sortBy('displayName', SORT_NATURAL | SORT_FLAG_CASE) as $propertyName => $property)
         <div>
             <h6
                 id="{{$group}}_{{$type}}_{{$propertyName}}"

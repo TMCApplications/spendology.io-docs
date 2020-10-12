@@ -5,8 +5,8 @@ details. From displaying banners to controlling the websites customers are direc
 links on the widgets."
 pageItems:
     widgets-loaded-event-listener: Waiting for the widgets to be downloaded
-    widgets-placeholder-check: Check if the expected widget placeholder exists
     widgets-save-referral-code: Save referral code
+    widgets-placeholder-check: Check if the expected widget placeholder exists
     widgets-add-config: Configuring your widgets
 extends: _layouts.documentation
 section: content
@@ -33,26 +33,6 @@ window.addEventListener('SPENDOLOGY_WIDGETS_LOADED', function () {
     // ...
 });
 ```
-
----
-### Check if the expected widget placeholder exists # {#widgets-placeholder-check}
-You should notice that inside the example config file each the widgets and their configurations are wrapped in a check 
-to see that the widget placeholder exists on the page.
-
-```js
-var instantQuoteId = 'InstantQuote';
-if (document.getElementById(instantQuoteId)) {
-    // configuration for this widget goes here
-}
-```
-
-This ensures that the widget configuration and render code is only run if you have put the related placeholder on the
-current page.
-
-> If you have entered a custom id for your widget placeholders instead of the defaults in the 
-[installation guide](/docs/installing-our-widgets#widgets-step-1), enter those identifiers in this section for each 
-of the widgets in the config.
-
 ---
 ### Save referral code # {#widgets-save-referral-code}
 If you do not plan to use comparison websites to attract customers to your currency services then you can skip this section.
@@ -85,6 +65,25 @@ SPENDOLOGY.saveReferralData('.yourcompany.com', 'referral_code')
 
 > **Alternatively** you can pass a referral code to the Instant Quote widget configuration using the  `referral_code` property 
 [here](/docs/instant-quote-configuration/#render_optional_referral_code). 
+
+---
+### Check if the expected widget placeholder exists # {#widgets-placeholder-check}
+You should notice that inside the example config file each the widgets and their configurations are wrapped in a check 
+to see that the widget placeholder exists on the page.
+
+```js
+var instantQuoteId = 'InstantQuote';
+if (document.getElementById(instantQuoteId)) {
+    // configuration for this widget goes here
+}
+```
+
+This ensures that the widget configuration and render code is only run if you have put the related placeholder on the
+current page.
+
+> If you have entered a custom id for your widget placeholders instead of the defaults in the 
+[installation guide](/docs/installing-our-widgets#widgets-step-1), enter those identifiers in this section for each 
+of the widgets in the config.
 
 ---
 ### Configuring your widgets # {#widgets-add-config}
