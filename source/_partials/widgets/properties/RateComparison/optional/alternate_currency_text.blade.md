@@ -20,5 +20,5 @@ placeholders below:
     <li><code>{target_currency_name}</code>: The name of the selected currency.</li>
 </ul>
 
-The configuration value must be a string only and not contain any `html` code.
+The configuration value must be a string only but can contain `html` code.
 </blockquote>
