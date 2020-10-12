@@ -1,7 +1,7 @@
 This message will display instead of the <a href="#{{$group}}_{{$type}}_results_message" title="Saving message">"Saving message"</a> when the selected currency
 is either not enabled, suspended or has no rate data available. 
 
-If the selected currency does not have a fco recommended alternative, or the alternative  is also unavailable, then the 
+If the selected currency does not have an FCO recommended alternative, or the alternative  is also unavailable, then the 
 rates displayed will be shown for the currency that appears top in the select dropdown and this message will be displayed. 
 
 In the default, after all the place holders are replaced, this message would say something like:
