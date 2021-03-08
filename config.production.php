@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'baseUrl' => 'https://docs.spendology.dev',
+    'baseUrl' => 'https://docs.spendology.io',
     'production' => true,
 
     // DocSearch credentials

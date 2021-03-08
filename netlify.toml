@@ -3,6 +3,6 @@
 # Redirect default Netlify subdomain to primary domain
 [[redirects]]
     from = "https://spendology-io-docs.netlify.com/*"
-    to = "https://docs.spendology.dev/:splat"
+    to = "https://docs.spendology.io/:splat"
     status = 301
     force = true
