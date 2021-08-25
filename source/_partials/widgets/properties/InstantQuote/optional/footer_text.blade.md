@@ -8,13 +8,11 @@ this message or leave it empty then it will not display anything. Please find an
 }}</code></pre>
 
 Commonly this is used to display a link to your privacy policy and to add other disclaimers about the "Instant Quote"
-widget.
+widget. Additionally, here are some other disclaimers we usually include in this message:
+<ul class="list-disc ml-10 text-sm">
+    <li>Please note that we always round the foreign currency to the lowest available denomination.</li>
+    <li>The exchange rate shown is constantly updated with the latest market data so costs may go up and down.</li>
+</ul>
 
 > You can put safe `html` code in the message, for example, to add links or to make parts of the
 message bold.
-> 
-> Additionally, here are some other disclaimers we usually include in this message:
-> <ul class="list-disc ml-10 text-sm">
->     <li>Please note that we always round the foreign currency to the lowest available denomination.</li>
->     <li>The exchange rate shown is constantly updated with the latest market data so costs may go up and down.</li>
-> </ul>

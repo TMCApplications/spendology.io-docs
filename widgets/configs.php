@@ -84,16 +84,6 @@ return [
                         'default' => '"Get an Instant Quote"',
                         'descriptionIncludePath' => $instantQuoteRoot . 'optional.heading_text',
                     ],
-                    'max_gbp' => [
-                        'displayName' => 'Maximum quote amount',
-                        'default' => 2500,
-                        'descriptionIncludePath' => $instantQuoteRoot . 'optional.max_gbp',
-                    ],
-                    'min_gbp' => [
-                        'displayName' => 'Minimum quote amount',
-                        'default' => 100,
-                        'descriptionIncludePath' => $instantQuoteRoot . 'optional.min_gbp',
-                    ],
                     'saving_text' => [
                         'displayName' => 'Saving text',
                         'default' => '""',
