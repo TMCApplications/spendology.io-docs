@@ -7,7 +7,7 @@ empty then it will not display anything. Please find an example message below:
 }}</code></pre>
 
 <ul class="list-disc ml-10">
-    <li><code>{base_currency_symbol}</code>: The currency symbol (e.g. <code>$, £</code>) etc.) of the base currency for your site.</li>
+    <li><code>{base_currency_symbol}</code>: The currency symbol (e.g. <code>$, £</code> etc.) of the base currency for your site.</li>
     <li><code>{delivery_charge}</code>: The configured delivery cost for your default delivery type.</li>
 </ul>
 
