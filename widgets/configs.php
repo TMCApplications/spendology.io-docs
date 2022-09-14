@@ -84,6 +84,11 @@ return [
                         'default' => '"Get an Instant Quote"',
                         'descriptionIncludePath' => $instantQuoteRoot . 'optional.heading_text',
                     ],
+                    'include_delivery_charge_in_calculations' => [
+                        'displayName' => 'Include Delivery Charge',
+                        'default' => 'false',
+                        'descriptionIncludePath' => $instantQuoteRoot . 'optional.include_delivery_charge_in_calculations',
+                    ],
                     'saving_text' => [
                         'displayName' => 'Saving text',
                         'default' => '""',
