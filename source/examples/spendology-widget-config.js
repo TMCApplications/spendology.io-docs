@@ -1,6 +1,6 @@
 window.addEventListener('SPENDOLOGY_WIDGETS_LOADED', function () {
     // This is a mocked (fake) api that returns a fixed set of fake data for display purposes.
-    var apiUrl = 'https://tmc.mockable.io';
+    var apiUrl = 'https://c08d5ed2-24d1-479b-af58-105b7774d302.mock.pstmn.io';
 
     // SPENDOLOGY.saveReferralData('.<your domain here>', 'referral_code');
 
