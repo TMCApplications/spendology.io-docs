@@ -89,10 +89,15 @@ return [
                         'default' => 'false',
                         'descriptionIncludePath' => $instantQuoteRoot . 'optional.include_delivery_charge_in_calculations',
                     ],
-                    'saving_text' => [
-                        'displayName' => 'Saving text',
+                    'saving_text_comparison_rate' => [
+                        'displayName' => 'Saving text (Comparison rate)',
                         'default' => '""',
-                        'descriptionIncludePath' => $instantQuoteRoot . 'optional.saving_text',
+                        'descriptionIncludePath' => $instantQuoteRoot . 'optional.saving_text_comparison_rate',
+                    ],
+                    'saving_text_default_rate' => [
+                        'displayName' => 'Saving text (Default rate)',
+                        'default' => '""',
+                        'descriptionIncludePath' => $instantQuoteRoot . 'optional.saving_text_default_rate',
                     ],
                     'onSubmit' => [
                         'displayName' => 'Submit callback function',
