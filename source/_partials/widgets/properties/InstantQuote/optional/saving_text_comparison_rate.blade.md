@@ -29,5 +29,5 @@ placeholders below:
     <li><code>{target_currency_code}</code>: The currency code (e.g. <code>AED, EUR</code> etc.) of the currency the customer has selected.</li>
 </ul>
 
-The configuration value must be a string only and not contain any `html` code.
+The configuration value must be a string only and not contain any <code>html</code> code.
 </blockquote>
