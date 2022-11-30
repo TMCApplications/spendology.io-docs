@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dfe34f85e1d31470d5f48760e4214616",
+    "content-hash": "f089a6f2c8c5e712751a584be825d4fd",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -1631,16 +1631,16 @@
         },
         {
             "name": "samdark/sitemap",
-            "version": "2.2.1",
+            "version": "2.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/samdark/sitemap.git",
-                "reference": "dcfef471e79abca9d3c4d83dd6a7861cec1a596a"
+                "reference": "a7ba091766afeb5fad1ea3056b30f26c3a620962"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/samdark/sitemap/zipball/dcfef471e79abca9d3c4d83dd6a7861cec1a596a",
-                "reference": "dcfef471e79abca9d3c4d83dd6a7861cec1a596a",
+                "url": "https://api.github.com/repos/samdark/sitemap/zipball/a7ba091766afeb5fad1ea3056b30f26c3a620962",
+                "reference": "a7ba091766afeb5fad1ea3056b30f26c3a620962",
                 "shasum": ""
             },
             "require": {
@@ -1672,7 +1672,21 @@
             "keywords": [
                 "Sitemap"
             ],
-            "time": "2019-03-27T09:31:20+00:00"
+            "support": {
+                "issues": "https://github.com/samdark/sitemap/issues",
+                "source": "https://github.com/samdark/sitemap"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/samdark",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/samdark",
+                    "type": "patreon"
+                }
+            ],
+            "time": "2021-10-02T04:04:28+00:00"
         },
         {
             "name": "spatie/backtrace",
@@ -3875,7 +3889,9 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": "^8.0"
+    },
     "platform-dev": [],
     "plugin-api-version": "2.3.0"
 }
