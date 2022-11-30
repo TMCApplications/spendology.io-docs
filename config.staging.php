@@ -6,5 +6,6 @@ return [
 
     // DocSearch credentials
     'docsearchApiKey' => '',
+    'docsearchAppId' => '',
     'docsearchIndexName' => '',
 ];

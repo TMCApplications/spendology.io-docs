@@ -13,6 +13,7 @@ return [
 
     // Algolia DocSearch credentials
     'docsearchApiKey' => 'TBD',
+    'docsearchAppId' => 'TBD',
     'docsearchIndexName' => 'TBD',
 
     // navigation menu

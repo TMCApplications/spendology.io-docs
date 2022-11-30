@@ -25,10 +25,11 @@
 </div>
 
 @push('scripts')
-    @if ($page->docsearchApiKey && $page->docsearchIndexName)
+    @if ($page->docsearchApiKey && $page->docsearchAppId && $page->docsearchIndexName)
         <script type="text/javascript">
             docsearch({
                 apiKey: '{{ $page->docsearchApiKey }}',
+                appId: '{{ $page->docsearchAppId }}',
                 indexName: '{{ $page->docsearchIndexName }}',
                 inputSelector: '#docsearch-input',
                 debug: false // Set debug to true if you want to inspect the dropdown
