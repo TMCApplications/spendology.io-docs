@@ -6,7 +6,6 @@ links on the widgets."
 pageItems:
     widgets-loaded-event-listener: Waiting for the widgets to be downloaded
     widgets-global-configuration: Global configuration
-    widgets-save-referral-code: Save referral code
     widgets-placeholder-check: Check if the expected widget placeholder exists
     widgets-add-config: Configuring your widgets
 extends: _layouts.documentation
@@ -75,39 +74,6 @@ This should be set to match an existing referral code of any of your affiliates.
 When set any exchange rates that are retrieved by your widgets for display to the customer will be from the rate book configured against the affiliate, when a customer is redirected from the Instant Quote widget to your App they will also have access to the exchange rates configured for your affiliate.
 
 > **Note** If you pass both a referral code and a package reference the exchanges rates from the referral code will take precedence.
-
----
-### Save referral code # {#widgets-save-referral-code}
-If you do not plan to use comparison websites to attract customers to your currency services then you can skip this section.
-Comparison sites will provide a referral code on the website address when linking to your website. We will need access to this
-within the currency order application we provide in order to track purchases for each referral provided.
-
-In order to facilitate this we provide a `saveReferralData` function which will look for the provided parameter on the URL
-(e.g. `?referral_code=ABC1234`). This function will save it as a cookie so that when they eventually get directed to the
-application from your marketing site we are able to record if a comparison site has successfully referred a customer when
-they place an order.
-
-```js
-SPENDOLOGY.saveReferralData('<your website domain>', '<url parameter>')
-```
-
-> **IMPORTANT!** This function must be called before any widgets below but also must be placed within the `SPENDOLOGY_WIDGETS_LOADED`
-event listener described above.
-
-Note that the first argument to this function requires you to put in the base domain that is shared between your marketing
-website, and the currency order application. For example, if your marketing website is at `https://yourcompany.com`, and the
-application is at `https://travelmoney.yourcompany.com` then the shared domain between the two is `yourcompany.com`.
-
-However, in order for our app to be able to read a cookie that was saved on your marketing site you will need to prefix the
-domain with a full stop `.`. Once you have put in your domain and expected URL parameter similar to the below code then
-if you go to `yourcompany.com?referral_code=123456` the cookie should get saved.
-
-```js
-SPENDOLOGY.saveReferralData('.yourcompany.com', 'referral_code')
-```
-
-> **Alternatively** you can pass a referral code to the Instant Quote widget configuration using the  `referral_code` property
-[here](/docs/instant-quote-configuration/#render_optional_referral_code).
 
 ---
 ### Check if the expected widget placeholder exists # {#widgets-placeholder-check}
