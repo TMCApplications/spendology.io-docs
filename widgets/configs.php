@@ -109,11 +109,6 @@ return [
             ],
             'render' => [
                 'optional' => [
-                    'referral_code' => [
-                        'displayName' => 'Referral code',
-                        'default' => 'null',
-                        'descriptionIncludePath' => $instantQuoteRoot . 'optional.referral_code',
-                    ],
                     'selected_currency' => [
                         'displayName' => 'Selected currency',
                         'default' => 'null',
