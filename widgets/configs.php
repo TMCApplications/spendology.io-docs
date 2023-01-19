@@ -166,7 +166,7 @@ return [
                     'error_message' => $errorMessage,
                     'poll_frequency' => [
                         'displayName' => 'Polling frequency',
-                        'default' => '10000 milliseconds (10 seconds)',
+                        'default' => '120000 milliseconds (120 seconds)',
                         'descriptionIncludePath' => $rateComparisonRoot . 'optional.poll_frequency',
                     ],
                     'results_message' => [
@@ -216,7 +216,7 @@ return [
                 ],
                 'refresh_interval' => [
                     'displayName' => 'Refresh interval',
-                    'default' => '5000 milliseconds (5 seconds)',
+                    'default' => '120000 milliseconds (120 seconds)',
                     'descriptionIncludePath' => $liveRateBoardRoot . 'optional.refresh_interval',
                 ],
                 'suspended_currency_text' => $suspendedCurrencyText,
