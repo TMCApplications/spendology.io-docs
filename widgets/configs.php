@@ -44,7 +44,7 @@ $errorMessage = [
 ];
 
 $suspendedCurrencyText = [
-    'displayName' => 'Suspended currency text',
+    'displayName' => 'Suspended currency message',
     'default' => '"This currency is temporarily unavailable."',
     'descriptionIncludePath' => $includeRoot . 'optional.suspended_currency_text',
 ];
@@ -158,12 +158,27 @@ return [
                         'default' => '2500',
                         'descriptionIncludePath' => $rateComparisonRoot . 'optional.comparison_amount',
                     ],
+                    'comparison_rates_not_found_text' => [
+                        'displayName' => 'Comparison missing message',
+                        'default' => 'No data is currently available.',
+                        'descriptionIncludePath' => $rateComparisonRoot . 'optional.comparison_rates_not_found_text',
+                    ],
                     'default_currency_text' => [
                         'displayName' => 'Default currency message',
                         'default' => '({target_currency_code}) is not currently available and there is no FCO recommended alternative so we are showing you our most popular currency, {default_currency_name} ({default_currency_code}).',
                         'descriptionIncludePath' => $rateComparisonRoot . 'optional.default_currency_text',
                     ],
                     'error_message' => $errorMessage,
+                    'hide_better_rates' => [
+                        'displayName' => 'Hide better comparison rates',
+                        'default' => 'true',
+                        'descriptionIncludePath' => $rateComparisonRoot . 'optional.hide_better_rates',
+                    ],
+                    'minimum_saving_amount' => [
+                        'displayName' => 'Minimum saving amount',
+                        'default' => '10',
+                        'descriptionIncludePath' => $rateComparisonRoot . 'optional.minimum_saving_amount',
+                    ],
                     'poll_frequency' => [
                         'displayName' => 'Polling frequency',
                         'default' => '120000 milliseconds (120 seconds)',
